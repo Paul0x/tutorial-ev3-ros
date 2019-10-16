@@ -14,7 +14,9 @@
 
 #### 2.2.1. Inicializando o Ev3
 1. Ligue o Ev3 e aguarde até sua luz ficar verde e aparecer a tela de login;
+
 2. Insira o teclado USB e conecte o cabo de conexão no Ev3 e no PC;
+
 3. Faça o login digitando no console do Ev3:
   ```console
 root@ev3:~$ root 
@@ -24,12 +26,25 @@ root@ev3:~$ root
 root@ev3:~$ gadget_on 
 ```
 5. Agora deve ser possível se conectar à rede do Ev3 através do cabo USB. Feito isso, é possível acessar o Ev3 pelo computador.
+
 6. Ao conectar na rede do Ev3, é necessário configurar seu IP manualmente para *192.168.10.<?>*, onde *<?>* é qualquer número entre 0-200 e diferente de 123.
 
 7. Feito isso, digite no **terminal do computador**:
 
   ```console
 usuario@pc:~$ ssh root@192.168.10.123 
+root@ev3:~$ login: root
+
+```
+8. Agora vamos habilitar o Wi-Fi do Ev3, digite no **terminal conectado via ssh**:
+
+  ```console
+root@ev3:~$ connmanctl # Abre o console do connman
+root@ev3:~$ enable wifi # Habilita o Wi-Fi
+root@ev3:~$ scan wifi # Procura as redes wifi
+root@ev3:~$ services # Mostra as redes disponíveis
+root@ev3:~$ connect wifi_(HASH) # Onde (HASH) é o código de sua rede, exibida pelo comando anterior
+
 ```
 
 
