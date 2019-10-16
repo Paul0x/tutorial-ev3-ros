@@ -21,6 +21,6 @@ root@ev3:~$ root
 
 4. Inicialize a placa de rede virtual do Ev3:
   ```console
-root@ev3:~$gadget_on 
+root@ev3:~$ gadget_on 
 ```
   
