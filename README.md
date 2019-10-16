@@ -12,7 +12,6 @@
 
 ### 2.2. Inicializando e Acessando o Ev3 via Wi-Fi
 
-#### 2.2.1. Inicializando o Ev3
 1. Ligue o Ev3 e aguarde até sua luz ficar verde e aparecer a tela de login;
 
 2. Insira o teclado USB e conecte o cabo de conexão no Ev3 e no PC;
@@ -50,6 +49,19 @@ root@ev3:~$ connect wifi_(HASH) # Onde (HASH) é o código de sua rede, exibida 
 9. Se tudo deu certo, seu Ev3 deve estar conectado via Wi-Fi e você não conseguirá mais mexer no terminal aberto via ssh.
 
 > **NOTA:** Caso ocorra algum problema, principalmente no comando *enable wifi*, verifique se o driver do seu adaptador está instalado no Ev3 (SESSÃO 1.X)
+
+#### 2.3. Configurando Sua Rede Wifi com os Seus Dispositivos
+##### 2.3.1. Configurando os IPs no Roteador
+##### 2.3.2. Configurando Arquivo HOSTS
+
+#### 2.4. Inicializando o ROS e os Controllers do Ev3
+##### 2.4.1. Inicializando o ROS
+##### 2.4.2. Inicializando os Controllers
+##### 2.4.3. Movimentando o Ev3
+
+### 2.5. Controlando o Ev3 Utilizando RosPy
+
+
 
 
 
