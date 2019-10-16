@@ -47,6 +47,9 @@ root@ev3:~$ connect wifi_(HASH) # Onde (HASH) é o código de sua rede, exibida 
 
 ```
 
+9. Se tudo deu certo, seu Ev3 deve estar conectado via Wi-Fi e você não conseguirá mais mexer no terminal aberto via ssh.
+
+> **NOTA:** Caso ocorra algum problema, principalmente no comando *enable wifi*, verifique se o driver do seu adaptador está instalado no Ev3 (SESSÃO 1.X)
 
 
 
