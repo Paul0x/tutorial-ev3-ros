@@ -16,8 +16,11 @@
 2. Insira o teclado USB e conecte o cabo de conexão no Ev3 e no PC;
 3. Faça o login digitando no console do Ev3:
   ```console
-root@ev3:~$ root ```
+root@ev3:~$ root 
+```
+
 4. Inicialize a placa de rede virtual do Ev3:
   ```console
-root@ev3:~$gadget_on ```
+root@ev3:~$gadget_on 
+```
   
